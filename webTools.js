@@ -6,12 +6,12 @@ const { displayDateTime } = require('./displayDateTime');
 
 const webTools = (() => {
     return {
-        randId:randId(),
-        hexaColor:hexaColor(),
-        rgbColor:rgbColor(),
-        displayDateTime:displayDateTime()
+        randId,
+        hexaColor,
+        rgbColor,
+        displayDateTime
     }
 })()
 
-console.log(webTools.randId, webTools.hexaColor, webTools.rgbColor, webTools.displayDateTime);
+// console.log(webTools.randId(), webTools.hexaColor(), webTools.rgbColor(), webTools.displayDateTime());
 module.exports.webTools = webTools
