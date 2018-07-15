@@ -1,3 +1,4 @@
+
 const { randId } = require('./randomId');
 const {rgbColor} = require('./rgbColor')
 const { hexaColor } = require('./hexaColor');

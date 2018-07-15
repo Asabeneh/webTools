@@ -1,8 +1,8 @@
 # Web Tools:
-Web toos is a simple JavaScript which provide random id, hexadecimal color, rgb color and date and time.
+Web tools is a simple JavaScript module which provide random id, hexadecimal color, rgb color and date and time.
 ### How to use:
 ```javascript
-const {webToos} = require('webTools');
+const {webTools} = require('webTools');
 const hexColor = webTools.hexaColor();// output: #f1eebd
 const rgbColor = webTools.rgbColor() // output: rgb(180,25,90)
 const randomId = webTools.randomId();// output: a9fu3d
