@@ -1,4 +1,4 @@
-#Web Tools:
+# Web Tools:
 Web toos is a simple JavaScript which provide random id, hexadecimal color, rgb color and date and time.
 ### How to use:
 ```javascript
@@ -11,7 +11,7 @@ const displayDateTime = webTools.displayDateTime(); //output: 15/7/2018 06:47
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
-#Author:
+# Author:
 [Asabeneh](https://github.com/Asabeneh)
 
-#License
+# License:
