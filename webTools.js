@@ -14,5 +14,5 @@ const webTools = (() => {
     }
 })()
 
-console.log(webTools.generateId(), webTools.hexaColor(), webTools.rgbColor(), webTools.showDateTime());
+// console.log(webTools.generateId(), webTools.hexaColor(), webTools.rgbColor(), webTools.showDateTime());
 module.exports.webTools = webTools

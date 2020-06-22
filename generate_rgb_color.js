@@ -1,4 +1,4 @@
-const rgbColor = function(alpha = 1) {
+const rgbColor = (alpha = 1) => {
     let rgb
     let redColor = Math.floor(Math.random() * 256);
     let greenColor = Math.floor(Math.random() * 256);

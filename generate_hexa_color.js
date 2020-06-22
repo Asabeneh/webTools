@@ -1,4 +1,4 @@
-const hexaColor = function() {
+const hexaColor = () => {
     let str = '0123456789abcdef';
     let color = '';
     for (let i = 0; i < 6; i++) {
