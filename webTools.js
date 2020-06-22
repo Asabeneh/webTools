@@ -1,18 +1,18 @@
 
-const { randId } = require('./randomId');
-const {rgbColor} = require('./rgbColor')
-const { hexaColor } = require('./hexaColor');
-const { displayDateTime } = require('./displayDateTime');
+const { generateId } = require('./generate_id');
+const {rgbColor} = require('./generate_rgb_color')
+const { hexaColor } = require('./generate_hexa_color');
+const { showDateTime } = require('./show_date_time');
 
 
 const webTools = (() => {
     return {
-        randId,
+        generateId,
         hexaColor,
         rgbColor,
-        displayDateTime
+        showDateTime
     }
 })()
 
-// console.log(webTools.randId(), webTools.hexaColor(), webTools.rgbColor(), webTools.displayDateTime());
+console.log(webTools.generateId(), webTools.hexaColor(), webTools.rgbColor(), webTools.showDateTime());
 module.exports.webTools = webTools
