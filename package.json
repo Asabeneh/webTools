@@ -1,21 +1,21 @@
 {
-  "name": "webtools",
+  "name": "@asabeneh/webtools",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple JavaScript module which improves productivity",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "url": "https://github.com/Asabeneh/webTools.git"
+
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "author": "",
+  "author": "Asabeneh",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "formidable": "^1.2.1",
-    "mongodb": "^3.1.1",
-    "nodemailer": "^4.6.7"
+
   }
 }
